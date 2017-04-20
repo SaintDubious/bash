@@ -18,7 +18,6 @@
 (delete-selection-mode t)                           ;; replace highlighted selection when typing
 (fset 'yes-or-no-p 'y-or-n-p)                       ;; enables "y" or "n" instead of "yes" and "no"
 
-
 ;; -----------------------------------------------------------------------
 ;; set global variables
 ;;
@@ -118,4 +117,5 @@
  '(cua-mode t nil (cua-base))
  '(show-paren-mode t)
  '(tab-width 4)
- '(tool-bar-mode nil))
+ '(tool-bar-mode nil)
+ '(ediff-split-window-function 'split-window-horizontally))
