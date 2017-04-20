@@ -1,0 +1,13 @@
+[user]
+    name = James Wells
+[alias]
+    co = checkout
+    st = status
+[difftool "ediff"]
+    cmd = emacs --eval \"(ediff-files \\\"$LOCAL\\\" \\\"$REMOTE\\\")\"
+[difftool]
+    prompt = false
+[diff]
+    tool = ediff
+[credential]
+    helper = store
